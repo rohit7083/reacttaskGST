@@ -101,6 +101,16 @@ function Home() {
        }
    };
 
+    //     const handleDelete = (id) => {
+    //     const confirm = window.confirm("would u lke to delte ");
+    //     if (confirm) {
+    //         axios.delete('http://localhost:3000/users/' + id)
+    //             .then(res => {
+    //                 location.reload();
+    //             }).catch(err => console.log(err));
+
+    //     }
+    // }
    return (
     <div>
         <Link to="/create">Add</Link>
